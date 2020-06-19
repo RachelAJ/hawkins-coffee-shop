@@ -107,20 +107,8 @@ h1 {
     border-radius: 5px;
 }
 
-.first-column {
-    border: black solid 2px;
-    padding: 25px;
-    margin: 20px;
-    font-family: 'Cuprum', sans-serif;
-}
-
-.second-column {
-    border: black solid 2px;
-    padding: 25px;
-    margin: 20px;
-    font-family: 'Cuprum', sans-serif;   
-}
-
+.first-column,
+.second-column,
 .third-column {
     border: black solid 2px;
     padding: 25px;

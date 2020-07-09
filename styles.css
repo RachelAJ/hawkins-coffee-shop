@@ -51,12 +51,13 @@ h1 {
 }
 
 .main-nav a:hover {
+    content: "";
     color: red;
 }
 
 .main-nav a::before {
-    content: '';
-    display: block;
+    content: "";
+    display: inline-block;
     height: 3px;
     background-color: red;
 
@@ -93,8 +94,7 @@ h1 {
 } */
 
 /* ==== Columns ==== */
-
-.container {
+ article {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
@@ -110,7 +110,7 @@ h1 {
 .third-column {
     border: black solid 2px;
     padding: 25px;
-    margin: 20px;
+    margin: 35px;
     font-family: 'Cuprum', sans-serif; 
 }
 
@@ -124,6 +124,50 @@ p:nth-child(2n) {
     color: white;
     box-shadow: 5px 5px 8px darkslategray;
 }
+
+/* ==== Coffee Menu ==== */
+
+.coffee-menu {
+    margin: 20px;
+    padding: 25px;
+}
+
+.coffee-menu > * {
+    padding: 10px;
+    margin: 10px;
+    height: 260px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 4px; 
+}
+
+/* ==== Form ==== */
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px 10px;
+    background: gray;
+    border-radius: 8px;
+    font-size: 25px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  button {
+    padding: 10px 15px 10px 15px;
+    color: #FFF;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 10px;
+  }
 
 /* ==== Main Footer ==== */
 
@@ -141,13 +185,13 @@ p:nth-child(2n) {
 
     .main-header,
     .main-nav,
-    .container {
+    article {
         display: flex;
     }
 }
 
 @media (max-width: 963px) {
-    .container {
+    article {
         flex-direction: column;
     }
 }

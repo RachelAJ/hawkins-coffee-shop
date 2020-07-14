@@ -143,30 +143,47 @@ p:nth-child(2n) {
 
 /* ==== Form ==== */
 
+.sign-up {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#myName,
+#myEmail {
+    font-size: 15px;
+    padding: 15px;
+}
+
 form {
-    max-width: 300px;
+    max-width: 350px;
     margin: 10px auto;
-    padding: 10px 20px 10px;
+    padding: 3px 20px 10px;
     background: gray;
     border-radius: 8px;
     font-size: 25px;
+    border: solid black 3px;
+    box-shadow: 5px 5px 8px darkslategray;
   }
 
   label {
-    display: block;
-    margin-bottom: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   button {
     padding: 10px 15px 10px 15px;
-    color: #FFF;
+    color: white;
     background-color: black;
     font-size: 18px;
+    font: 1em/1.5 "Amatic SC";
     text-align: center;
     border-radius: 5px;
     width: 100%;
     border: 1px solid white;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 
 /* ==== Main Footer ==== */

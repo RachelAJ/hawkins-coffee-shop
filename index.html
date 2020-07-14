@@ -15,8 +15,8 @@
     <nav>
         <ul class="main-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Order</a></li>
-            <li><a href="#">Coffee</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#coffee-menu">Coffee</a></li>
             <li><a href="#">Location</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -28,7 +28,7 @@
        <h1>Mornings are for Coffee & Contemplation</h1>
     </div>
 
-    <article>
+    <article id="about">
     
         <p class="first-column">
             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
@@ -50,7 +50,7 @@
 
     </article>
 
-<div class="coffee-menu">
+<div class="coffee-menu" id="coffee-menu">
     <img src="img/capp.jpg">
     <img src="img/whipped.jpg">
     <img src="img/cold.jpg">
@@ -59,24 +59,25 @@
 
 <!-- ==== Email Sign Up Form ==== -->
 
-<form action="index.html" method="post">
-    <h2>Sign Up for Our Emails!</h2>
+<form name="myForm" id="myForm" action="index.html" method="post">
+    <h2 class="sign-up">Don't keep your curiosity door locked, sign up for our e-mails!</h2>
    
    <fieldset>
    
      <legend><span class="number"></span>Your Info:</legend>
      
       <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name">
+      <input type="text" id="myName" name="user_name" placeholder="Ex: Jim Hopper" required>
      
       <label for="mail">Email:</label>
-      <input type="email" id="mail" name="user_email">
+      <input type="email" id="myEmail" name="user_email" placeholder="me@example.com" required>
                
    </fieldset>
 
-   <button type="submit" class="submit">Sign Up!</button>
+   <button type="submit" class="submit" id="myButton">Sign Up!</button>
    
 </form>
+
 
 <script src="script.js"></script>
 

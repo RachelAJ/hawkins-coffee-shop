@@ -143,6 +143,10 @@ p:nth-child(2n) {
 
 /* ==== Form ==== */
 
+.input-error {
+    border: 2px solid red;
+}
+
 .sign-up {
     text-align: center;
     font-size: 32px;

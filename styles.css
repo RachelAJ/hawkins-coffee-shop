@@ -14,12 +14,7 @@ h1 {
     text-shadow: 2px 2px black ;
 }
 
-/* img {
-    max-width: 100%;
-    margin-bottom: 20px;
-} */
-
-/* ==== Main Nav Bar ==== */
+/* ========== Main Nav Bar ========== */
 
 .main-header {
 	padding-top: .5em;
@@ -72,7 +67,11 @@ h1 {
     width: 3%;
 }
 
-/* ==== Main Image ==== */
+.name:hover {
+    text-shadow: 1px 1px slategray;
+}
+
+/* ========== Main Image ========== */
 
 .main-img {
     padding-top: 170px;
@@ -86,14 +85,10 @@ h1 {
     color: white;
     font-size: 3rem;
     text-shadow: 2px 2px black;
-    
 }
 
-/* .main-img {
-    text-align: center;
-} */
+/* ========== Article Columns ========== */
 
-/* ==== Columns ==== */
  article {
     flex-direction: row;
     justify-content: space-around;
@@ -125,11 +120,12 @@ p:nth-child(2n) {
     box-shadow: 5px 5px 8px darkslategray;
 }
 
-/* ==== Coffee Menu ==== */
+/* ========== Coffee Menu ========== */
 
 .coffee-menu {
     margin: 20px;
     padding: 25px;
+    align-items: center;
 }
 
 .coffee-menu > * {
@@ -138,13 +134,22 @@ p:nth-child(2n) {
     height: 260px;
     width: 260px;
     border: 2px solid black;
-    border-radius: 4px; 
+    border-radius: 4px;
+    opacity: .7; 
 }
 
-/* ==== Form ==== */
+.coffee-pics:hover {
+    width: 270px;
+    height: 270px;
+    background-color: #E21616;
+    transition: ease-in-out .3s;
+    opacity: 1;
+}
+
+/* ========== HTML Form ========== */
 
 .input-error {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .sign-up {
@@ -190,7 +195,22 @@ form {
     margin-top: 10px;
   }
 
-/* ==== Main Footer ==== */
+  /* ========== Location =========== */
+
+  .location {
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px gray;
+    border: red solid 3px;
+    border-radius: 5px;
+  }
+
+/* ========== Main Footer ========== */
 
 .main-footer {
     text-align: center;
@@ -200,7 +220,14 @@ form {
 	margin-top: 30px;
 }
 
-/* ==== Media Queries ==== */
+/* ========== Media Queries ========== */
+
+@media (max-width: 717px) {
+    .coffee-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media (min-width: 769px) {
 

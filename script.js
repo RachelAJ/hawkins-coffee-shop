@@ -1,3 +1,5 @@
+// This function validates information in the Name and Email fileds on the HTML Sign Up form
+
 function buttonClick() {
     const myName = document.getElementById('myName');
     const myEmail = document.getElementById('myEmail');

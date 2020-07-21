@@ -87,7 +87,7 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-/* ========== Article Columns ========== */
+/* ========== About Article Columns ========== */
 
  article {
     flex-direction: row;
@@ -120,7 +120,7 @@ p:nth-child(2n) {
     box-shadow: 5px 5px 8px darkslategray;
 }
 
-/* ========== Coffee Menu ========== */
+/* ========== Coffee Menu Gallery ========== */
 
 .coffee-menu {
     margin: 20px;
@@ -146,7 +146,7 @@ p:nth-child(2n) {
     opacity: 1;
 }
 
-/* ========== HTML Form ========== */
+/* ========== HTML Email Sign Up Form ========== */
 
 .input-error {
     border: 1px solid red;
@@ -210,7 +210,7 @@ form {
     border-radius: 5px;
   }
 
-/* ========== Main Footer ========== */
+/* ========== Footer ========== */
 
 .main-footer {
     text-align: center;

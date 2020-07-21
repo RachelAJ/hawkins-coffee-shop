@@ -1,113 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Narrow&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Stranger Things</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Narrow&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Coffee & Contemplation</title>
+    </head>
+    <body>
 
-    <!-- ========== Main Header & Nav Bar ========== -->
+        <!-- ========== Main Header & Nav Bar ========== -->
 
-<header class="main-header">
-    <h2 class="name"><a href="#">Coffee & Contemplation</a></h2>
-    <nav>
-        <ul class="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#coffee-menu">Coffee</a></li>
-            <li><a href="#myForm">Connect</a></li>
-            <li><a href="#location">Location</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="main-header">
+        <h2 class="name"><a href="#">Coffee & Contemplation</a></h2>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#coffee-menu">Coffee</a></li>
+                <li><a href="#myForm">Connect</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- ========== Main Image of Hopper ========== -->
+        <!-- ========== Main Image of Hopper ========== -->
 
-    <div class="main-img">
-       <span class="title">Welcome to Hawkins, Indiana where...</span> 
-       <h1>Mornings are for Coffee & Contemplation</h1>
-    </div>
+        <div class="main-img">
+        <span class="title">Welcome to Hawkins, Indiana where...</span> 
+        <h1>Mornings are for Coffee & Contemplation</h1>
+        </div>
 
-<!-- ========== About Article Section ========== -->
+        <!-- ========== About Article Section ========== -->
 
-    <article id="about">
-    
-        <p class="first-column">
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
-            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
-            Donec eu libero sit amet quam egestas semper.<br>
-            Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-    
-        <p class="second-column">
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
-            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
-            Donec eu libero sit amet quam egestas semper.<br>
-            Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            
-        <p class="third-column">
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
-            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
-            Donec eu libero sit amet quam egestas semper.<br>
-            Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-    </article>
-
-<!-- ========== Coffee Menu Gallery ========== -->
-
-<div class="coffee-menu" id="coffee-menu">
-    <img src="img/capp.jpg" class="coffee-pics">
-    <img src="img/whipped.jpg" class="coffee-pics">
-    <img src="img/cold.jpg" class ="coffee-pics">
-    <img src="img/black.jpg" class="coffee-pics">
-</div>
-
-<!-- ========== Email Sign Up Form ========== -->
-
-    <form name="myForm" id="myForm" action="index.html" method="post">
-        <h2 class="sign-up">Don't keep your curiosity door locked, sign up for our e-mails!</h2>
-    
-    <fieldset>
-    
-        <legend><span class="number"></span>Your Info:</legend>
+        <article id="about">
         
-        <label for="name">Name:</label>
-        <input type="text" id="myName" name="user_name" placeholder="Ex: Jim Hopper" required>
+            <p class="first-column">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
+                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
+                Donec eu libero sit amet quam egestas semper.<br>
+                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
         
-        <label for="mail">Email:</label>
-        <input type="email" id="myEmail" name="user_email" placeholder="hopper@hawkinspd.com" required>
+            <p class="second-column">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
+                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
+                Donec eu libero sit amet quam egestas semper.<br>
+                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                 
-    </fieldset>
+            <p class="third-column">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> 
+                Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.<br>
+                Donec eu libero sit amet quam egestas semper.<br>
+                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 
-    <button type="button" class="submit" id="myButton" onclick="buttonClick()">Sign Up!</button>
-    
-    </form>
+        </article>
 
-<!-- ========== Location Section ========== -->
+        <!-- ========== Coffee Menu Gallery ========== -->
 
-    <section class="location" id="location"> 
-            <span>
-                <h2>
-                    Location:<br>
-                    Starcourt Mall
-                    5555 Mirkwood Dr.
-                    Hawkins, IN 47000
-                </h2>
-            </span>
-     </section>
-
-<script src="script.js"></script>
-
-</body>
-
- <!-- ========== Footer ========== -->
-<footer class="main-footer">
-    <div class="footer-inner">
-        <span>&copy;2020 Coffee & Contemplation</span>
+    <div class="coffee-menu" id="coffee-menu">
+        <img src="img/capp.jpg" class="coffee-pics">
+        <img src="img/whipped.jpg" class="coffee-pics">
+        <img src="img/cold.jpg" class ="coffee-pics">
+        <img src="img/black.jpg" class="coffee-pics">
     </div>
-</footer>
+
+        <!-- ========== Email Sign Up Form ========== -->
+
+        <form name="myForm" id="myForm" action="index.html" method="post">
+            <h2 class="sign-up">Don't keep your curiosity door locked, sign up for our e-mails!</h2>
+            
+                <fieldset>
+                
+                    <legend><span class="number"></span>Your Info:</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="myName" name="user_name" placeholder="Ex: Jim Hopper" required>
+                    
+                    <label for="mail">Email:</label>
+                    <input type="email" id="myEmail" name="user_email" placeholder="hopper@hawkinspd.com" required>
+                            
+                </fieldset>
+
+            <button type="button" class="submit" id="myButton" onclick="buttonClick()">Sign Up!</button>
+        
+        </form>
+
+        <!-- ========== Location Section ========== -->
+
+        <section class="location" id="location"> 
+                <span>
+                    <h2>
+                        Location:<br>
+                        Starcourt Mall
+                        5555 Mirkwood Dr.
+                        Hawkins, IN 47000
+                    </h2>
+                </span>
+        </section>
+
+    <script src="script.js"></script>
+
+    </body>
+
+        <!-- ========== Footer ========== -->
+
+    <footer class="main-footer">
+        <div class="footer-inner">
+            <span>&copy;2020 Coffee & Contemplation</span>
+        </div>
+    </footer>
 
 </html>

@@ -50,7 +50,7 @@ h1 {
     color: red;
 }
 
-.main-nav a::before {
+ .main-nav a::before {
     content: "";
     display: inline-block;
     height: 3px;
@@ -206,6 +206,7 @@ form {
     background-color: black;
     color: white;
     text-shadow: 1px 1px gray;
+    box-shadow: 5px 5px 8px darkslategray;
     border: red solid 3px;
     border-radius: 5px;
   }
@@ -226,6 +227,23 @@ form {
     .coffee-menu {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .main-nav a:before {
+        top: initial;
+        bottom: 10px;
+    }
+    .main-nav a:hover:before {
+        top: initial;
+        width: 10%;
     }
 }
 

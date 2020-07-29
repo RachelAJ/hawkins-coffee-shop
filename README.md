@@ -13,3 +13,5 @@ Used the :nth child CSS style to change the About Article Columns section backgr
 Also inlcuded are some animations using CSS psuedo class selectors such as hovering over the Navagation Menu and hovering over the Coffee Menu Gallery section which changes size and adds some color to the background. 
 
 Clicking on the Navigation Menu will take you to the correlating section on the page.
+
+GitHub page link: https://rachelaj.github.io/hawkins-coffee-shop/
